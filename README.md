@@ -1,0 +1,2 @@
+# Deteksi-Peramban-Dan-Sistem-Operasi
+Deteksi Peramban Dan Sistem Operasi menggunakan javascript objek (navigator.userAgent) Untuk mengulangi mendapatkan list browser dan os dari script (let browserDetailsRef) dan (let osDetailsRef) menggunakan for, untuk mendapatkan informasi tentang browser dan os kemudian menggunakan if jika pernyataan cocok dengan string tertentu (nama browser dan os) lalu windows.onload untuk refresh otomatis jika tidak mendapatkan informasi browser dan os.
