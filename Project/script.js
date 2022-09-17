@@ -26,7 +26,7 @@ let broswerChecker = () => {
   }
   for (let i in os) {
     if (userDetails.includes(os[i].value)) {
-      osDetailsRef.innerHTML = os[i].name;
+      osDetailsRef.innerHTML = os[i].name || "Sistem Operasi Tidak Dikenal";
       break;
     }
   }
